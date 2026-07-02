@@ -1,0 +1,17 @@
+{
+  "name": "bdd-framework-boilerplate",
+  "version": "1.0.0",
+  "description": "BDD test framework boilerplate — Cucumber.js + Playwright with Page Object Model",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:smoke": "cucumber-js --profile smoke",
+    "test:ci": "cucumber-js --profile ci",
+    "report": "open reports/cucumber-report.html"
+  },
+  "keywords": ["bdd", "cucumber", "playwright", "gherkin", "pom"],
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.53.0"
+  }
+}
