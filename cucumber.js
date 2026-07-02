@@ -9,8 +9,7 @@ const common = {
     'html:reports/cucumber-report.html',
     'json:reports/cucumber-report.json'
   ],
-  formatOptions: { snippetInterface: 'async-await' },
-  publishQuiet: true
+  formatOptions: { snippetInterface: 'async-await' }
 };
 
 module.exports = {
